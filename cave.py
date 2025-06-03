@@ -1,8 +1,8 @@
 class Cave: 
-    def_init_(self, cave_name):
+    def __init__(self, cave_name):
         self.name = cave_name
         self.description = None 
-        set.link_caves = {}
+        set.linked_caves = {}
 
     def set_name(self, cave_name)
         self.name = cave_name 
@@ -24,5 +24,15 @@ class Cave:
        # print(self.name + "Linked caves:" + repr(self.linked.caves))
 
     def get_details(self):
+        print(self.name)
+        
         for direction, cave in self.linked_caves.items():
             print("The " + cave_get_name() + "is" + direction)
+    
+    def move(self, direction):
+        if direction in self.linked_caves[direction]
+            return self.linked_caves[direction]
+        
+         else:
+            print("You cannot go that way")
+            return self
