@@ -18,6 +18,14 @@ class Character:
             print(self.name + " says:" + self.conversation)
         else:
             print(self.name + " does not want to talk to you")
+            
+    def fight(self):
+        """Allows charcters to fight with the player"""
+        print()
 
+class Enemy(Character):
+    """Defines attributes and methods for the Enemy sub-class """
+    def __init___(self, char_name, char_description)
+        super().__init__(char_name, char_description)
 
 
