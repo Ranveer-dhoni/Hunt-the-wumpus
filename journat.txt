@@ -7,3 +7,6 @@ wrote setter and getter methods for each attribute. Started planning the layout 
 dictionary to the terminal
 3/6/25- Added code to the main program to allow the plater to move between different cave objects. Set up a new Character class and
 test program. Created 'Harry - The smelly Wumpus' in the test program and tested the conversation method. e
+4/6/25- Created the enemy subclass (of Character) and added its own methods for setting and getting the Enemy's weakness. Wrote a 
+method for fight() that overrides the fight() method in the super-class. Updated the char_text code to test the new sub-class 
+objects (particulary the weakness and fight methods)
